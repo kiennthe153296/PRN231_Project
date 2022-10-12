@@ -8,7 +8,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace WebAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class ProductsController : ControllerBase
     {
@@ -17,7 +17,7 @@ namespace WebAPI.Controllers
         {
             this._context = _context;
         }
-        [HttpGet]
+        [HttpGet("hot")]
         public async Task<IActionResult> GetHotProducts()
         {
             List<Product> GetTopDiscountProducts = new List<Product>();
@@ -35,12 +35,19 @@ namespace WebAPI.Controllers
             var product = _context.Products.FirstOrDefault(x => x.ProductId == id);
             return product;
         }
-
+        [HttpGet]
         public async Task<IActionResult> GetBestSaleProducts()
         {
 
             List<Product> GetBestSaleProducts = new List<Product>();
             return Ok(GetBestSaleProducts);
+        }
+
+        [HttpGet("new")]
+        public async Task<IActionResult> GetNewestProducts()
+        {
+            List<Product> list = await _context.Products.OrderByDescending(x => x.ProductId).Take(4).ToListAsync();
+            return Ok(list);
         }
     }
 }

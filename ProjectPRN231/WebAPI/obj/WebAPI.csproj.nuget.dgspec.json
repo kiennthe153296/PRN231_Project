@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MAJOR\\S8\\PRN231\\Project\\ProjectPRN231\\WebAPI\\WebAPI.csproj": {}
+    "D:\\MAJOR\\S8\\PRN231\\Project\\PRN231_Project\\ProjectPRN231\\WebAPI\\WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\MAJOR\\S8\\PRN231\\Project\\ProjectPRN231\\WebAPI\\WebAPI.csproj": {
+    "D:\\MAJOR\\S8\\PRN231\\Project\\PRN231_Project\\ProjectPRN231\\WebAPI\\WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MAJOR\\S8\\PRN231\\Project\\ProjectPRN231\\WebAPI\\WebAPI.csproj",
+        "projectUniqueName": "D:\\MAJOR\\S8\\PRN231\\Project\\PRN231_Project\\ProjectPRN231\\WebAPI\\WebAPI.csproj",
         "projectName": "WebAPI",
-        "projectPath": "D:\\MAJOR\\S8\\PRN231\\Project\\ProjectPRN231\\WebAPI\\WebAPI.csproj",
+        "projectPath": "D:\\MAJOR\\S8\\PRN231\\Project\\PRN231_Project\\ProjectPRN231\\WebAPI\\WebAPI.csproj",
         "packagesPath": "C:\\Users\\Kien\\.nuget\\packages\\",
-        "outputPath": "D:\\MAJOR\\S8\\PRN231\\Project\\ProjectPRN231\\WebAPI\\obj\\",
+        "outputPath": "D:\\MAJOR\\S8\\PRN231\\Project\\PRN231_Project\\ProjectPRN231\\WebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kien\\AppData\\Roaming\\NuGet\\NuGet.Config",

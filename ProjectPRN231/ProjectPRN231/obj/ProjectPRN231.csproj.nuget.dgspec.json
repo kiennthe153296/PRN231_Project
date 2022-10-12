@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MAJOR\\S8\\PRN231\\Project\\ProjectPRN231\\ProjectPRN231\\ProjectPRN231.csproj": {}
+    "D:\\MAJOR\\S8\\PRN231\\Project\\PRN231_Project\\ProjectPRN231\\ProjectPRN231\\ProjectPRN231.csproj": {}
   },
   "projects": {
-    "D:\\MAJOR\\S8\\PRN231\\Project\\ProjectPRN231\\ProjectPRN231\\ProjectPRN231.csproj": {
+    "D:\\MAJOR\\S8\\PRN231\\Project\\PRN231_Project\\ProjectPRN231\\ProjectPRN231\\ProjectPRN231.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MAJOR\\S8\\PRN231\\Project\\ProjectPRN231\\ProjectPRN231\\ProjectPRN231.csproj",
+        "projectUniqueName": "D:\\MAJOR\\S8\\PRN231\\Project\\PRN231_Project\\ProjectPRN231\\ProjectPRN231\\ProjectPRN231.csproj",
         "projectName": "ProjectPRN231",
-        "projectPath": "D:\\MAJOR\\S8\\PRN231\\Project\\ProjectPRN231\\ProjectPRN231\\ProjectPRN231.csproj",
+        "projectPath": "D:\\MAJOR\\S8\\PRN231\\Project\\PRN231_Project\\ProjectPRN231\\ProjectPRN231\\ProjectPRN231.csproj",
         "packagesPath": "C:\\Users\\Kien\\.nuget\\packages\\",
-        "outputPath": "D:\\MAJOR\\S8\\PRN231\\Project\\ProjectPRN231\\ProjectPRN231\\obj\\",
+        "outputPath": "D:\\MAJOR\\S8\\PRN231\\Project\\PRN231_Project\\ProjectPRN231\\ProjectPRN231\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Kien\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,30 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[6.0.9, )"
-            },
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[6.0.9, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            },
-            "Microsoft.Extensions.Configuration.Json": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[6.0.10, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
